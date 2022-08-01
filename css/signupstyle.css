@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.back1{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../imges/backforsign.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.box1{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+
+}
+.formb{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 3% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
+.butn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+   top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.inputG{
+    top: 130px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.inputF{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.btnSub{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.chkB{
+    margin: 30px 10px 30px 0;
+}
+
+#logn{
+    left:50px ;
+}
+#reg{
+    left: 450px;
+}
+.pa{
+
+
+}
+.content2{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(160%);
+    text-align: center;
+    color: #fff;
+
+}
+
+.button2{
+    width: 200px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #000000;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+}
+.button2:hover span{
+    width: 100%;
+}
+.button2:hover{
+    border: none;
+}
